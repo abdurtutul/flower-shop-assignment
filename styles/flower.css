@@ -1,0 +1,77 @@
+/* Common shared styles */
+body{
+    font-family: Lato;
+}
+.test-primary{
+    color: #272727;
+}
+
+.btn-primary{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 20px 43px;
+
+}
+.header{
+    background: rgba(229, 84, 115, 0.10);
+    background-position: 1920px 850px;
+
+}
+/* banner related style */
+.banner{
+    /* padding: 30px 30px 0px 150px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+.banner-content{
+    
+
+}
+.banner-greeting{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800; 
+    width: 708px; 
+    margin-bottom: 32x;
+    margin-right: 972px;
+    margin-top: 197px;
+    margin-left: 240px;
+}
+
+
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);  
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    align-items: center;
+    margin-top: 32px; 
+    margin-left: 240px;
+    margin-right: 1046px;
+    margin-bottom: 32px;    
+}
+.banner-pic{
+    /* padding: 50px 240px 0px 97px; */
+    margin-top: 50px;
+    margin-right: 240px ;
+    margin-bottom: 0px;
+    width: 635px; 
+    height: 800px; 
+
+}
+.btn-primary, .btn-position{
+    margin-left: 240px;
+    margin-bottom: 147px; 
+    padding: 20px 43px;
+}
