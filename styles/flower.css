@@ -207,5 +207,14 @@ span{
     margin-left: 603px;
 
 }
+flower-instra > img{
+    width: 342px;
+     height: 396px;
+}
+.img-container{
+    display: flex;
+    gap: 24px;
+    margin-left: 1500px;
+}
 
 
