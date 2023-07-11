@@ -14,7 +14,7 @@ body{
     border-radius: 8px;
     background: #E55473;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700px;
     padding: 20px 43px;
 
@@ -25,7 +25,6 @@ body{
 }
 /* banner related style */
 .banner{
-    /* padding: 30px 30px 0px 150px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,11 +50,13 @@ body{
 
 .banner-description{
     color: rgba(39, 39, 39, 0.60);  
-    font-size: 18px;
-    font-weight: 400px;
+    font-size: 40px;
+    font-weight: 500px;
     margin-top: 32px; 
     margin-left: 240px;
-    margin-bottom: 32px;    
+    margin-bottom: 32px;
+    padding-right: 0%;  
+    width: 734px;  
 }
 .banner .banner-pic{
     /* padding: 50px 240px 0px 97px; */
@@ -78,12 +79,12 @@ main{
 main section{
     margin-top: 178px;
 }
-
+/* our featured flowers */
 .section-title{
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -93,9 +94,7 @@ main section{
 .section-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+    font-size: 40px;
     margin-top: 24px;
     margin-right: 663px;
     margin-left: 663px;
@@ -129,11 +128,84 @@ flower img{
 .flower-title{
     color: #272727;
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
 }
-/* Our Featured Flowers */
-/* #featured-flower-description{
-    /* padding: 24px 663px 48px 663px; */
+.icon-container{
+    display: flex;
+    gap: 356px;
+    border-radius: 0px 0px 0px 0px;
+    margin-left: 190px;
+    margin-right: 100px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.icon-title{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 24px;
+ }
+ 
+ icon img{
+    display: block;
+    padding: 40px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ /* hot deal */
+.hot-deal{
+    background-position: bottom right,top left;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+
+}
+.hot-greeting{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800px; 
+    width: 808px; 
+    margin-bottom: 24x;
+    margin-right: 962px;
+    margin-top: 197px;
+    margin-left: 421px;
+}
+.hot-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 24x;
+    width: 594px;
+     /* margin-right: 933px;
+    margin-top: 24px; */
+    margin-left: 421px;
+
+}
+span{
+    color: red;
+}
+.hot-btn{
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 25px;
+    font-weight: 700px;
+    padding: 20px 43px;
+    margin-top: 32px;
+    margin-left: 603px;
+
+}
+
+
