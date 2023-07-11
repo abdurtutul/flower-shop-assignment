@@ -21,8 +21,7 @@ body{
 }
 .header{
     background: rgba(229, 84, 115, 0.10);
-    background-position: 1920px 850px;
-
+    background-position: bottom right,top left;
 }
 /* banner related style */
 .banner{
@@ -35,13 +34,13 @@ body{
 
 }
 .banner-content{
-    
+    max-width: 500px;  
 
 }
 .banner-greeting{
     color: #272727;
     font-size: 80px;
-    font-weight: 800; 
+    font-weight: 800px; 
     width: 708px; 
     margin-bottom: 32x;
     margin-right: 972px;
@@ -54,24 +53,87 @@ body{
     color: rgba(39, 39, 39, 0.60);  
     font-size: 18px;
     font-weight: 400px;
-    line-height: 30px;
-    align-items: center;
     margin-top: 32px; 
     margin-left: 240px;
-    margin-right: 1046px;
     margin-bottom: 32px;    
 }
-.banner-pic{
+.banner .banner-pic{
     /* padding: 50px 240px 0px 97px; */
     margin-top: 50px;
     margin-right: 240px ;
     margin-bottom: 0px;
-    width: 635px; 
-    height: 800px; 
-
+    width: 1000px;
+    
 }
 .btn-primary, .btn-position{
     margin-left: 240px;
     margin-bottom: 147px; 
     padding: 20px 43px;
 }
+/* main section style */
+main{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 178px;
+}
+
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-right: 663px;
+    margin-left: 663px;
+    margin-bottom: 48px;
+}
+
+flower img{
+    padding: 24px;
+    border-radius: 300px 300px 0px 0px;
+    
+
+}
+#img1{
+    background: rgba(167, 33, 98, 0.15);
+}
+#img2{
+    background: rgba(5, 151, 160, 0.15);
+}
+
+ #imag3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower-container{
+    display: flex;
+    gap: 24px;
+    margin-left: 150px;
+}
+.image-flower{
+    padding: 76px;
+}
+.flower-title{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+/* Our Featured Flowers */
+/* #featured-flower-description{
+    /* padding: 24px 663px 48px 663px; */
