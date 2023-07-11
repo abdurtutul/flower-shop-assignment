@@ -17,6 +17,7 @@ body{
     font-size: 25px;
     font-weight: 700px;
     padding: 20px 43px;
+    border: none;
 
 }
 .header{
@@ -133,6 +134,7 @@ flower img{
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 .icon-container{
     display: flex;
     gap: 356px;
@@ -193,28 +195,128 @@ flower img{
 span{
     color: red;
 }
-.hot-btn{
+.banner >.btn-primary, .hot-btn{
+
+    margin-top: 32px;
+    margin-left: 603px;
+    margin-right: 417px;
+}
+flower-instra {
+    display: inline-flex;
+    width: 724px;
+    height: 656px;
+    gap: 24px;
+}
+.img-container {
+    
+    gap: 24px;
+    display: block;
+    width: 50%;
+    padding-left: 750px;
+
+} 
+.deals{
+    margin-top: 128px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.deals-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+}
+.deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+input{
+    width: 700px;
+    height: 64px; 
+    font-size: 28px;  
+    padding-left: 22px;
+    border: none; 
+    border-radius: 8px;
+}
+.deals-btn{
     padding: 20px 43px;
     align-items: flex-start;
-    gap: 10px;
+    gap: 16px;
     border-radius: 8px;
     background: #E55473;
     color: white;
     font-size: 25px;
     font-weight: 700px;
     padding: 20px 43px;
-    margin-top: 32px;
-    margin-left: 603px;
+    border: none;
+    border-radius: 8px;
+  }
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* https://www.w3schools.com/Css/css3_2dtransforms.asp */
+  }
+  
+  
+footer{
+    height: 449px;
+    background: black;
+    margin-top: 265px;
+    padding: 130px 200px;
 
 }
-flower-instra > img{
-    width: 342px;
-     height: 396px;
+
+#footer-color{
+    color: #E55473;
+
 }
-.img-container{
-    display: flex;
-    gap: 24px;
-    margin-left: 1500px;
+.footer-container
+{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    
 }
 
+#footer-description
+{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 32px;
+}
 
