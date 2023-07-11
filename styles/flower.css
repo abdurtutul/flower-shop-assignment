@@ -20,6 +20,10 @@ body{
     border: none;
 
 }
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: rgb(235, 193, 200);
+}
 .header{
     background: rgba(229, 84, 115, 0.10);
     background-position: bottom right,top left;
@@ -187,8 +191,6 @@ flower img{
     font-weight: 500;
     margin-bottom: 24x;
     width: 594px;
-     /* margin-right: 933px;
-    margin-top: 24px; */
     margin-left: 421px;
 
 }
@@ -198,21 +200,23 @@ span{
 .banner >.btn-primary, .hot-btn{
 
     margin-top: 32px;
-    margin-left: 603px;
-    margin-right: 417px;
+    margin-left: 703px;
+    margin-right: 400px;
 }
 flower-instra {
     display: inline-flex;
-    width: 724px;
+    width: 624px;
     height: 656px;
     gap: 24px;
+   
 }
 .img-container {
     
     gap: 24px;
     display: block;
     width: 50%;
-    padding-left: 750px;
+    padding-left: 800px;
+    margin-left: 750px;
 
 } 
 .deals{
@@ -261,6 +265,10 @@ input{
     border: none;
     border-radius: 8px;
   }
+  .deals-btn:hover{
+    cursor: pointer;
+    background-color: palevioletred;
+  }
 
 
 .container {
@@ -275,7 +283,9 @@ input{
     transform: translate(-50%, -50%);
     /* https://www.w3schools.com/Css/css3_2dtransforms.asp */
   }
-  
+  /* footer asection */
+
+
   
 footer{
     height: 449px;
